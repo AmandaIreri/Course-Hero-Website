@@ -1,12 +1,15 @@
 #navbar{
     display: flex;
     gap: 25%;
+    margin: 1% 1%;
+    
 }
-#container1{
+#logo{
     display: flex;
     gap: 2%;
+    padding-left: 1%;
 }
-.skill{
+#logo b{
     color: #233860;
     margin-top: 7%;
 }
@@ -16,7 +19,7 @@
 body{
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#container2{
+#about-section{
     padding: 10px;
     display: flex;
     gap: 30%;
@@ -24,88 +27,128 @@ body{
 .home{
     color: #E83755;
 }
-.b1{
-    color: #C3D0E1;
+#about-section a{
+    color: #618FCF;
+    font-weight: 550px;
 }
-#container3{
+#registration{
     display: flex;
     gap: 30%
 }
-.button1{
+.login-button{
     width:200px ;
     border-radius: 50px;
     border: solid 2px #E83755;
     color: #E83755;
 
 }
-.button2{
+.join-button{
     width:200px ;
     border-radius: 50px;
     background-color: #E83755;
     color: white;
     border: solid #E83755;
 }
-.b2{
+h1{
     font-size: 50px;
     color: #233860;
     padding: 20px;
+    font-size: 75px;
 }
-.span2{
+.superhero{
     color: #E83755;
 }
-.span3{
-    color: #AFC1D6;
+.money{
+    color: #618FCF;
+    font-weight: 550px;
     padding: 20px;
     font-size: 20px;
 }
 input{
-    width: 250px;
-    height: 40px;
+    width: 320px;
+    height: 35px;
     border-radius: 50px;
     border: solid 1px grey;
-    padding-left: 2%;
 }
 
-#input{
-    margin: 0 1%;
+#explore-button{
+    position: relative;
+    display: inline-block;
+    margin: 1% 4%;
 }
-.button3{
-    width: 150px ;
+#explore-button input{
+    padding-right:10px;
+}
+#explore-button button{
+    width: 140px ;
     height: 40px;
     border-radius: 50px;
     background-color: #E83755;
     color: white;
     border: solid 1px #E83755   ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 2;
+    cursor: pointer;
 }
 #subscription{
     display: flex;
+    margin: 1% 3%;
+    gap: 10%;
+}
+#skills{
+    font-size: 20px;
+    color: #618FCF;
+    font-weight: 550px;
+    padding-left: 4%;
 }
 .tick{
-    font-size: 30px;
-    color: #AFC1D6;
+    font-size: 20px;
+    color: #618FCF;
+    padding-left: 2%;
 }
-#main{
+#landing-section{
     display: flex;
-    gap: 10%;
+    gap: 15%;
+    margin: 1% 1%;
 }
 #logos{
     display: flex;
     gap: 15%;
     padding: 0 15%;
 }
-.logo1{
-    width:150px ;
-    height: 100px;
-}
-.logo2{
-    width:110px ;
-    height: 100px;
-}
-.logo3{
+.microsoft{
     width:150px ;
     height: 90px;
 }
-
+.google{
+    width:110px ;
+    height: 100px;
+}
+.slack{
+    width:150px ;
+    height: 90px;
+}
+.udemy{
+    height: 90px;
+    width: 140px;
+}
+#images{
+    position: relative;
+}
+#icons{
+    position: absolute;
+}
+.settings{
+    width: 50px;
+    height: 50px;
+    bottom: 5%;
+}
+.mainimage{
+    height: 600px;
+    width: 650px;
+}
 
 @media only screen and (max-width: 600px) {
     #navbar{
